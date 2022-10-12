@@ -20,34 +20,34 @@ body {
     --hat-color: #ECECEC;
         }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
+
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
 h6 {
-  margin: 0;
+    margin: 0;
 }
-ul,
+ul, 
 ol {
-  margin: 0;
-  padding-left: 0;
-}
-button {
-  cursor: pointer;
+    margin: 0;
+    padding-left: 0;
 }
 address {
-  font-style: normal;
+    font-style: normal;
 }
-img {
-  display: block;
-
+button {
+    cursor: pointer;
+}
+img{
+    display: block;
+}
+.list{
+    list-style: none;
 }
 
-.list {
-        list-style: none;
-    }
 
 .container {
         width: 1200px;
@@ -64,11 +64,13 @@ img {
     height: auto;
         }
 /* ------HEADER--------HEADER-------HEADER--------HEADER--------*/
-
 .page-header {
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    outline: 2px solid #F5F5F5;
 }
+
 
 .container-index-head {
     display: flex;
@@ -105,8 +107,8 @@ img {
 }
 
 .web {
-    text-decoration: none;
     color: #2196F3;
+    text-decoration: none;
 }
 
 .header-list {
@@ -123,7 +125,6 @@ img {
 .header-list: focus {
 color: #2196F3;
 }
-
 
 .current {
     color: #2196F3;
@@ -178,15 +179,18 @@ color: #2196F3;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    position: absolute;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     text-align: center;
+    align-items: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    cursor: pointer
+    cursor: pointer;
     min-width: 216px;
     height: 50px;
     margin-left: 480px;
+    padding: 10px 32px;
 }
 
 .benefits {
@@ -376,14 +380,18 @@ color: #2196F3;
 .footer-link :hover .footer-link :focus {
     color: #2196F3;
 }
-
-                                   /* ------PORTFOLIO------- */
+/* ------PORTFOLIO------- */
 /* ---HEADER---HEADER---HEADER----HEADER-----*/
-.page-header{
+.page-header-port {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
     outline: 2px solid #F5F5F5;
+}
+
+.por-cont-header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .port-head-container {
@@ -407,6 +415,29 @@ color: #2196F3;
     gap: 50px;
 }
 
+.contact-link-port {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.contact-link-port: hover,
+.contact-link-port: focus {
+    color: #2196F3;
+}
+
+.current {
+    color: #2196F3;
+}
+
+.port-img-name {
+    padding-top: 20px;
+    padding-left: 24px;
+}
 
 
 
@@ -495,6 +526,8 @@ padding-bottom: 94px;
     padding-bottom: 20px;
     padding-left: 24px;
 }
+
+.
 
 /* -----FOOTER------FOOTER------FOOTER-----FOOTER-------FOOTER------ */
 .footer-portfolio {
