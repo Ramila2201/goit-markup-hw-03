@@ -1,10 +1,9 @@
-body {
-        font-family: 'Raleway', sans-serif;
+.body {
         font-family: 'Roboto', sans-serif;
         background-color:#FFFFFF;
         font-size: 14px;
         letter-spacing: 0.03em;
-            color: var(--main-txt);
+        color: var(--main-txt);
     }
 
     :root {
@@ -48,21 +47,17 @@ img{
     list-style: none;
 }
 
-
 .container {
         width: 1200px;
-        padding-right: 15px;
         padding-left: 15px;
-        margin-left: auto;
-        margin-right: auto;
+        padding-right: 15px;
+        margin: 0 auto;
         outline: 2px solid red;
     }
 
     .img {
     display: block;
-    max-width: 100%;
-    height: auto;
-        }
+    }
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -140,7 +135,7 @@ color: #2196F3;
 }
 
 .contact-link {
-    ont-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -152,13 +147,10 @@ color: #2196F3;
     padding-bottom: 32px;
 }
 
-.contact-link: hover,
-.contact-link: focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #2196F3;
 }
-
-/* -------MAIN------MAIN-----MAIN------MAIN-----MAIN------- */
-
 
 .main-section {
     background-color: #2F303A;
@@ -247,7 +239,7 @@ color: #2196F3;
 
 /*-------- Чим ми займаємося------- */
 .we-work {
-    ont-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -271,7 +263,7 @@ color: #2196F3;
 }
 
 .our-team {
-    ont-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -573,7 +565,6 @@ margin-top: 20px;
 }
 
 .portfolio-link {
-
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -583,16 +574,9 @@ margin-top: 20px;
     text-decoration: none;
     font-style: normal;
     margin-top: 9px;
-
 }
 
-.portfolio-link :hover, 
-.portfolio-link :focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
     color: #2196F3;
 }
-
-
-
-
-
-
