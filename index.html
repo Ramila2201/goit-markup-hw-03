@@ -17,9 +17,11 @@
         rel="stylesheet">
 </head>
 <body>
+    <!-- шапка сайту -->
     <header class="page-header">
     <div class="container container-index-head">
         <nav class="nav-index-head">
+    <!-- Навігація сайту -->
         <a href="./index.html" class="header-logo"><span class="web">Web</span>Studio</a>
     <ul class=" nav-index-head-list list">
         <li><a href="" class="header-list current">Студія</a></li>
@@ -27,37 +29,64 @@
         <li><a href="" class="header-list">Контакти</a></li>
     </ul>
     </nav>
+    <!-- Контактні дані -->
     <ul class="naw-index-contact list">
-        <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="contact-link">+380961111111</a></li>
+        <li><a href="mailto:info@devstudio.com" class="contact-link">
+            <svg class="contact-icon" width="16" height="12">
+                
+                <use> href=""</use>
+                
+            </svg>
+
+
+            info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="contact-link">
+            +380961111111</a></li>
     </ul>
 </div>
     </header>
-            <!--Головний контент-->
-            <main>
-                <section class="main-section">
+        <main>
+                <!-- Герой -->
+                <section class="overlay main-section">
                             <div class="container">
                             <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
                             <button type="button" class="main-btn">Замовити послугу</button>
                             </div>
                         </section>
-                    <section class="benefits">
+                        <!-- Переваги. Потім сховати заголовок h2  -->
+                    <section class="benefits "> 
                             <div class="container">
-                    <h2 class="hidden-header">Наші переваги</h2>
+                    <h2 class=" benefits-container hidden-header">Переваги</h2>
                     <ul class="order-list list">
-                        <li>
+                        <li class="benefits-point">
+                            <div class="benefits-img">
+                            </div>
+                            svg class 
+                            use 
                             <h3 class=" section-heading">Увага до деталей</h3>
                             <p class=" section-p">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції</p>
                         </li>
-                        <li>
+                        <li class="benefits-point">
+                            <div class="benefits-img">
+                            </div>
+                            svg class 
+                            use 
                             <h3 class=" section-heading">Пунктуальність</h3>
                             <p class=" section-p">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                         </li>
-                        <li>
+                        <li class="benefits-point">
+                            <div class="benefits-img">
+                            </div>
+                            svg class 
+                            use 
                             <h3 class="t section-heading">Планування</h3>
                             <p class=" section-p">Так само консультація з широким активом значною мірою зумовлює.</p>
                         </li>
-                        <li>
+                        <li class="benefits-point">
+                            <div class="benefits-img">
+                                svg class
+                                use
+                            </div>
                             <h3 class=" section-heading">Сучасні технології</h3>
                             <p class=" section-p">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                         </li>
@@ -78,6 +107,7 @@
                         </ul>
                         </div>
                     </section>
+                    <!-- Фото, чим займається компанія -->
                 <section class="team-section">
                         <div class="container">
                         <!--Команда-->
@@ -116,6 +146,7 @@
                     </section>
                 </div>
         </main>
+
                 <footer class="footer">
                     <div class="container">
                         <a href="./index.html" class="footer-logo"><span class="footer-web">Web</span>Studio</a>
