@@ -17,20 +17,23 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="site-body">
     <header class="page-header">
-        <div class="container container-index-head">
-            <nav class="nav-index-head">
+        <div class="container container-head">
+            <!-- logo  -->
+            <nav class="nav-head">
                 <a href="./index.html" class="header-logo"><span class="web">Web</span>Studio</a>
-                <ul class=" nav-index-head-list list">
+                <!-- Навігація сайту -->
+                <ul class=" nav-head-list list">
                     <li><a href="./index.html" class="header-list ">Студія</a></li>
                     <li><a href="./portfolio.html" class="header-list current">Портфоліо</a></li>
                     <li><a href="" class="header-list">Контакти</a></li>
                 </ul>
             </nav>
-            <ul class="naw-index-contact list">
-                <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="contact-link">+380961111111</a></li>
+            <!--Контактні дані-->
+            <ul class="nav-contact list">
+                <li class="contact-details"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+                <li class="contact-details"><a href="tel:+380961111111" class="contact-link">+380961111111</a></li>
             </ul>
     </header>
     <!--Головний контент-->
@@ -38,16 +41,18 @@
         <section class="main-color-port">
             <div class="container">
                 <h2 class="hidden-header-port">Портфоліо</h2>
+                <!-- Конопки -->
                 <ul class="button-list-port list">
-                    <li><button type="button" class="portfolio-button">Усі</button></li>
-                    <li><button type="button" class="portfolio-button">Веб-сайти
+                    <li class="filter-button"><button type="button" class="portfolio-button">Усі</button></li>
+                    <li class="filter-button"><button type="button" class="portfolio-button">Веб-сайти
                         </button></li>
-                    <li><button type="button" class="portfolio-button">Додатки
+                    <li class="filter-button"><button type="button" class="portfolio-button">Додатки
                         </button></li>
-                    <li><button type="button" class="portfolio-button">Дизайн</button></li>
-                    <li><button type="button" class="portfolio-button">Маркетинг
+                    <li class="filter-button"><button type="button" class="portfolio-button">Дизайн</button></li>
+                    <li class="filter-button"><button type="button" class="portfolio-button">Маркетинг
                         </button></li>
                 </ul>
+                <!-- Список портфоліо карток -->
                 <div class="container">
                 <ul class="port-product-list list"> 
                     <li class="product-item">
@@ -66,7 +71,8 @@
                     </li>
                     <li class="product-item">
                         <a class="card-link link" href="#">
-                        <img src="./images/img.vsc/potr.photo2.jpg"
+                        <img class="card-image"
+                        src="./images/img.vsc/potr.photo2.jpg"
                         alt="img2"
                         width="370"
                         height="294"
@@ -79,7 +85,8 @@
                     </li>
                     <li class="product-item">
                         <a class="card-link link" href="#">
-                        <img src="./images/img.vsc/potr.photo3.jpg"
+                        <img class="card-image"
+                        src="./images/img.vsc/potr.photo3.jpg"
                         alt="img3"
                         width="370"
                         height="294"
@@ -92,7 +99,8 @@
                     </li>
                     <li class="product-item">
                         <a class="card-link link" href="#">
-                        <img src="./images/img.vsc/potr.photo4.jpg"
+                        <img class="card-image"
+                        src="./images/img.vsc/potr.photo4.jpg"
                         alt="img4"
                         width="370"
                         height="294"
@@ -105,7 +113,8 @@
                     </li>
                     <li class="product-item">
                         <a class="card-link link" href="#">
-                        <img src="./images/img.vsc/potr.photo5.jpg"
+                        <img class="card-image"
+                        src="./images/img.vsc/potr.photo5.jpg"
                         alt="img5"
                         width="370"
                         height="294"
@@ -119,7 +128,8 @@
                     </li>
                     <li class="product-item">
                         <a class="card-link link" href="#">
-                        <img src="./images/img.vsc/potr.photo6.jpg"
+                        <img class="card-image"
+                        src="./images/img.vsc/potr.photo6.jpg"
                         alt="img6"
                         width="370"
                         height="294"
@@ -132,7 +142,8 @@
                     </li>
                     <li class="product-item">
                         <a class="card-link link" href="#">
-                        <img src="./images/img.vsc/potr.photo7.jpg"
+                        <img class="card-image"
+                        src="./images/img.vsc/potr.photo7.jpg"
                         alt="img7"
                         width="370"
                         height="294"
@@ -145,7 +156,8 @@
                     </li>
                     <li class="product-item">
                         <a class="card-link link" href="#">
-                        <img src="./images/img.vsc/potr.photo8.jpg"
+                        <img class="card-image"
+                        src="./images/img.vsc/potr.photo8.jpg"
                         alt="img8"
                         width="370"
                         height="294"
@@ -158,7 +170,8 @@
                     </li>
                     <li class="product-item">
                         <a class="card-link link" href="#">
-                        <img src="./images/img.vsc/potr.photo9.jpg"
+                        <img class="card-image"
+                        src="./images/img.vsc/potr.photo9.jpg"
                         alt="img9"
                         width="370"
                         height="294"
@@ -175,22 +188,27 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <a href="./index.html" class="footer-logo"><span class="footer-web">Web</span>Studio</a>
-            <address class="address-footer-index">
-                <ul class=" address-list list">
+            <!-- футер лого -->
+            <a class="footer-logo" href="./index.html">
+                <span class="footer-web">Web</span>Studio</a>
+            <address class="address-footer-index ">
+                <ul class="address-list list">
                     <li class="list-index-foot">
-                        <a href="https://goo.gl/maps/mVJf43payoTZsXNx5" target="_blank"
-                            rel="noopener norefferer nofollow" class="address">
-                            м. Київ, пр-т Лесі Українки, 26</a></li>
+                        <a class="address link" href="https://goo.gl/maps/mVJf43payoTZsXNx5" target="_blank"
+                            rel="noopener norefferer nofollow">м. Київ, пр-т Лесі Українки, 26</a>
+                    </li>
                     <li class="address-item">
-                        <a class="footer-link link " href="mailto:info@devstudio.com">
-                        </a>info@devstudio.com</a></li>
+                        <a class="footer-link" href="mailto:info@devstudio.com">
+                            info@devstudio.com</a>
+                    </li>
                     <li class="address-item">
-                        <a class="footer-link link " href="tel:+380961111111">+380961111111</a></li>
+                        <a class="footer-link link " href=+380961111111">
+                            +38 096 111 11 11</a>
+                    </li>
                 </ul>
             </address>
-        </div>
-    </footer>
-</body>
-
-</html>
+            </div>
+            </footer>
+            </body>
+            
+            </html>
