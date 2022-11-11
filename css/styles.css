@@ -63,12 +63,6 @@ img {
     text-decoration: none;
 } 
 
-.contact-icon {
-    margin-right: 10px;
-    fill: currentColor;
-    vertical-align: middle;
-}
-
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -182,12 +176,14 @@ font-family: 'Raleway', sans-serif;
     color: var(--accent-color);
 }
 
-/* іконки до мейл та тел (спільний)*/
+/* іконки до мейл та тел (спільний) 4 дз*/
 .contact-icon {
     margin-right: 10px;
     fill: currentColor;
     vertical-align: middle
 }
+
+
 /* Футер ( спільний ) */
 
 .footer {
@@ -250,9 +246,70 @@ font-family: 'Raleway', sans-serif;
 .address:focus,
 .footer-link :hover,
 .footer-link :focus {
-color: var(--accent-color);
+    color: var(--accent-color);
 }
-/* Герой */
+
+/* Приєднуйтесь .Футер (спільний) */
+
+
+.invitation-text{
+    /* font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 21px; */
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: var(--secondary-accent-color);
+        margin-bottom: 21px;
+}
+
+.soc-networks-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* display: flex;
+    gap: 10px;
+    margin-top: 20px;
+     */
+}
+
+.networks-soc-item{
+    width: 44px;
+    height: 44px;
+}
+
+.networks-soc-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.networks-soc-icon{
+    fill: var(--secondary-accent-color);
+}
+
+.networks-soc-link:hover,
+.networks-soc-link:focus {
+    background-color: var(--accent-color);
+}
+
+.networks-soc-link:hover,
+.networks-soc-icon,
+.networks-soc-link:focus,
+.networks-soc-icon {
+    fill: var(--secondary-accent-color);
+}
+/* Герой  індекс*/
 .overlay {
     background-color: var(--hero-bg-color);
     padding-top: 200px;
@@ -446,6 +503,107 @@ color: var(--accent-color);
     color: #757575;
     /* margin-top: 10px; */
 }
+
+.photo-list-people {
+
+}
+
+/* Соцмережі під фото */
+.work-con-icon {
+    fill: var(--fill-icon-color);
+}
+
+.employees-network-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.employees-soc-item {
+    width: 44px;
+    height: 44px;
+}
+
+.employees-soc-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: var(--secondary-accent-color);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.employees-soc-link:hover,
+.employees-soc-link:focus{
+    background: var(--accent-color);
+}
+
+.employees-soc-link:hover, 
+.employees-soc-link:focus,
+.work-con-icon,
+.work-con-icon {
+    fill: var(--secondary-accent-color);
+} 
+
+/* Постійні клієнти */
+.clients-section {
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
+    background-color: var(--secondary-bg-color);
+        text-align: center;
+        padding: 94px 0;
+}
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-text-color);
+    margin-bottom: 50px;
+    letter-spacing: 0.03em;
+}
+
+.clients-list {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.clients-item {
+    /* width: calc((100% - 150px) / 6);
+    height: 92px; */
+    background-color: var(--secondary-accent-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.clients-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--fill-icon-color);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cliens-icon {
+    fill: var(--fill-icon-color);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    border-color: var(--accent-color);
+}
+
+.clients-link:hover .cliens-icon,
+.clients-link:focus .cliens-icon {
+    fill: var(--accent-color);
+}
+
   /* Портфоліо  Портфоліо Портфоліо Портфоліо */
 /* головний контент меін */
 .main-color-port {
